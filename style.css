@@ -25,6 +25,51 @@ ul {
 .nav-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 60px 12.5%;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.header-item {
+    flex: 1 1 0px;
+}
+
+.header-item > h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-item > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-button {
+    background-color: #3882F6;
+    padding: 2px 16px;
+    border-radius: 6px;
+    color:#E5E7EB;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    width: 405px;
+    height: 236px;
+    flex: 0 0 auto;
+}
+
 
 
