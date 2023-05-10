@@ -71,5 +71,43 @@ ul {
     flex: 0 0 auto;
 }
 
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+}
+
+.box {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img {
+    border: solid #3882F6 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
 
 
